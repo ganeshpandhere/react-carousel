@@ -41,7 +41,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## To run the project from build folder
 
-Once the [roject is built using npm run build command, the app for production is built to the `build` folder.
+Once the project is built using npm run build command, the app for production is built to the `build` folder.
 
 To serve the production ready code, you can install local server using `npm install -g serve` and then use `serve -s build` from project directory.\
 
