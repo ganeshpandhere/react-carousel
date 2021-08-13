@@ -1,0 +1,48 @@
+@import '_variables.scss';
+
+body{
+
+  background-color: $body-bg;
+}
+
+#root {
+  padding: $spacing * 2;
+}
+
+img {
+  display:block;
+  margin:auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: $color-black !important;
+}
+
+.card {
+  text-align: center;
+  padding-top: $spacing;
+  opacity: 1;
+  color: $color-white;
+  border: none;
+  .card-title{
+    color: $color-black;
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0 !important;
+  }
+  .buy-now {
+    background-color: $color-green;
+    border: 1px solid $color-green;
+    border-radius: 4px;
+    color: $color-white;
+    margin-top: $spacing * 2 !important;
+    font-weight: bold;
+    &:hover {
+      background: $color-green-hover;
+    }
+  }
+}
